@@ -5,8 +5,8 @@
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
 <div align="center">
-  <a href="https://bavarianrhino.github.io/mod-4-frontend-final-project/#/login"><img src="public/logo.png" title="Car World" alt="Car World"></a>
   <p>Login Credentials</p>
+  <a href="https://bavarianrhino.github.io/mod-4-frontend-final-project/#/login"><img src="public/logo.png" title="Car World" alt="Car World"></a>
   <p>USERNAME: guest</p>
   <p>PASSWORD: 1234</p>
 </div>
@@ -16,25 +16,8 @@
 
 
 ## 🎬 Demo
-<!-- ![Recordit GIF](https://recordit.co/kHEtfAcsLN) -->
-<!-- ![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif) -->
-<!-- [Imgur](https://i.imgur.com/yx9zN0H.gifv) -->
-
-![Imgur](https://i.imgur.com/yx9zN0H.gif)
-
-![Imgur](https://i.imgur.com/yx9zN0H)
-
-[Imgur](https://i.imgur.com/yx9zN0H.gif)
-
-[Imgur](https://i.imgur.com/yx9zN0H)
-
-<a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
-<a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="source: imgur.com" /></a>
-
 <div align="center">
-    <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
-    <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="source: imgur.com" /></a>
-    <p>Login provided using Bcrypt and JWT authentication.</p>
+    <img width="640px" src="src/images/demo.gif">
 </div>
 
 ## 👤 Team
