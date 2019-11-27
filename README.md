@@ -1,68 +1,117 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Car World
 
-## Available Scripts
+> Car World is a family friendly fullstack web application that challenges users in their game driving ability. This application includes a full gamut of features including everything from authentication, public high score board, and collision detection of moving objects.
 
-In the project directory, you can run:
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
-### `npm start`
+<div align="center">
+  <a href="https://bavarianrhino.github.io/mod-4-frontend-final-project/#/login"><img src="public/logo.png" title="Car World" alt="Car World"></a>
+  <p>Login Credentials</p>
+  <p>USERNAME: guest</p>
+  <p>PASSWORD: 1234</p>
+</div>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🌎 Motivation
+>Full-Stack Web application that profiles game logic and collision detection using React and Ruby on Rails API. Backend code located in this [Github Repository](https://github.com/bavarianrhino/mod-4-backend-final-project). RESTfully persists user data with postgreSQL database via Active Record implementing a many to many model relationship along with full CRUD actions.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+## 🎬 Demo
+<!-- ![Recordit GIF](https://recordit.co/kHEtfAcsLN) -->
+<!-- ![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif) -->
+[Imgur](https://i.imgur.com/yx9zN0H.gifv)
+<div align="center">
+    <p>Login provided using Bcrypt and JWT authentication.</p>
+</div>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👤 Team
+- <a href="https://github.com/spikeburton">Spike Burton</a>
+- <a href="https://github.com/bavarianrhino">Ryan Riesenberger</a>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔬 Learning Objectives
+* Architectural considerations of building a full stack app with collision detection and game logic.
+* Connect a front-end <b>Create-React-App</b> server to a <b>Ruby on Rails backend</b>
+* Communicate data via <b>RESTful API</b> from the <b>PostgreSQL</b> database to the Client React Application
+* Understand how to route user requests on the front end with <b>React Router</b> and on the backend with <b>Active Record</b>
+* Enhance authentication flows in the app with the Ruby gems <b>Bcrypt & JWT for Authentication</b>
+<!-- * Build reusable user inputs with <b>Redux Form</b>, complete with navigation -->
+<!-- * Handle credit cards and receive payments from users with <b>Stripe</b> -->
+<!-- * Engage users with automated <b>emails</b> -->
+<!-- * Separate production and development resources with advanced <b>API key handling techniques</b> -->
+<!-- * Educate users on how to use the app with custom build landing pages -->
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tech/Framework Stack
+🌖<b>Front-End</b>
+- React.js, React-Router-Dom
+- JavaScript, ES6
+- Semantic-UI-React
+- ****ADD HERE****
 
-### `npm run eject`
+🌘<b>Back-End</b>
+- PostgreSQL Database
+- Served by Puma
+- Active Record has a "many-to-many" database Schema
+- Ruby, Ruby on Rails
+- Rack CORS for handling Cross-Origin Resource Sharing (CORS) and AJAX
+- Byebug and Pry-Rails used in Debugging Development
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- ☁️<b>API</b>
+- [MarketCheck Automotive API](https://www.marketcheck.com/automotive) -->
+  
+🚀<b>Deployment</b>
+- Ruby on Rails API hosted on [Heroku](https://carworld-api.herokuapp.com/users)
+- React hosted on [Github Pages](https://bavarianrhino.github.io/mod-4-frontend-final-project/#/login)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💻 Local Env Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🔨 <b>Installation</b>
+```shell
+  $ git clone git@github.com:bavarianrhino/mod-4-backend-final-project.git
+  $ cd mod-4-backend-final-project
+  [server]$ bundle install
+  [server]$ rails db:create
+  [server]$ rails db:migrate
+  [server]$ rails db:seed
+```
+```zsh
+  $ git clone git@github.com:bavarianrhino/mod-4-frontend-final-project.git
+  $ cd mod-4-frontend-final-project
+  [server]$ npm install
+```
+<!-- 🔨 <b>Development Configuration</b>
+- Sign up with [MarketCheck Automotive API](https://www.marketcheck.com/automotive) and save your api key in a newly created '.env' file at the root level of the client-react directory.
+```javascript
+  REACT_APP_MARKETCHECK_API_KEY=your_api_key_goes_here_with_no_quotes
+``` -->
 
-## Learn More
+🔨 <b>Running the application</b>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To serve the Ruby on Rails API navigate to the backend directory and execute command
+```zsh
+  [server]$ rails s
+```
+- To start the client side of the application, open a different tab within a terminal. Navigate to the frontend directory and execute command.
+```zsh
+  [client]$ npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚧 TODO
+- Host front and backend
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<!-- ## 🛠 Tech Stack
 
-### Analyzing the Bundle Size
+- [GatsbyJS](https://www.gatsbyjs.org/) - Static site generation built on React and GraphQL
+- [Emotion](https://emotion.sh/docs/introduction) - CSS in JS
+- [FontAwesome](https://fontawesome.com/) - Social link icons
+- [Netlify](https://www.netlify.com/) - Hosting and continuous deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 🗺 Site Map
 
-### Making a Progressive Web App
+    /
+    /landing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. [Home](https:///)
+1. [Login](https://) -->
