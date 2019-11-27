@@ -19,6 +19,11 @@
 <!-- ![Recordit GIF](https://recordit.co/kHEtfAcsLN) -->
 <!-- ![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif) -->
 <!-- [Imgur](https://i.imgur.com/yx9zN0H.gifv) -->
+![Imgur](https://i.imgur.com/yx9zN0H.gifv)
+[img]https://i.imgur.com/yx9zN0H.gif[/img]
+[img]https://i.imgur.com/yx9zN0H.gif[/img]
+![url=https://imgur.com/yx9zN0H][img]http://i.imgur.com/yx9zN0H.gif[/img][/url]
+[url=https://imgur.com/yx9zN0H][img]http://i.imgur.com/yx9zN0H.gif[/img][/url]
 <div align="center">
     <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
     <p>Login provided using Bcrypt and JWT authentication.</p>
