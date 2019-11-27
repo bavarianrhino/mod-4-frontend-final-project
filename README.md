@@ -29,9 +29,11 @@
 [Imgur](https://i.imgur.com/yx9zN0H)
 
 <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
+<a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="source: imgur.com" /></a>
 
 <div align="center">
     <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
+    <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="source: imgur.com" /></a>
     <p>Login provided using Bcrypt and JWT authentication.</p>
 </div>
 
