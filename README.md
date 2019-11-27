@@ -18,8 +18,9 @@
 ## 🎬 Demo
 <!-- ![Recordit GIF](https://recordit.co/kHEtfAcsLN) -->
 <!-- ![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif) -->
-[Imgur](https://i.imgur.com/yx9zN0H.gifv)
+<!-- [Imgur](https://i.imgur.com/yx9zN0H.gifv) -->
 <div align="center">
+    <a href="https://imgur.com/yx9zN0H"><img src="https://i.imgur.com/yx9zN0H.gif" title="Car World Demo" /></a>
     <p>Login provided using Bcrypt and JWT authentication.</p>
 </div>
 
