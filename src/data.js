@@ -1,5 +1,6 @@
 // ============== APIs ============== //
-export const API = "http://localhost:3000";
+// export const API = "http://localhost:3000";
+export const API = "https://carworld-api.herokuapp.com/";
 
 // ============== GAME VARIABLES ============== //
 export const CAR_WIDTH = 20;
